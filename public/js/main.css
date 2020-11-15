@@ -1,0 +1,26 @@
+.loading .scene {
+	width: 677px;
+}
+
+@media (max-width: 767px) {
+	.loading .scene {
+		width: 340px;
+	}
+}
+@media (max-width: 900px) and (orientation: landscape){
+	.loading .scene {
+		width: 340px;
+	}
+}
+@media (max-width: 350px) {
+	.loading .scene {
+		width: 300px;
+	}
+	.project_title_text {
+		-webkit-transform: scale(.44);
+		-moz-transform: scale(.44);
+		-ms-transform: scale(.44);
+		-o-transform: scale(.44);
+		transform: scale(.44);
+	}
+}

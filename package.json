@@ -1,0 +1,44 @@
+{
+  "name": "pj_Project1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "webpack.config.js",
+  "scripts": {
+    "start": "webpack-dev-server --watch --mode development",
+    "build": "NODE_ENV=production webpack -p"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "gsap": "^2.0.2",
+    "request": "^2.88.2",
+    "serialize-javascript": "^5.0.1",
+    "tinygesture": "^1.1.4"
+  },
+  "devDependencies": {
+    "@babel/polyfill": "^7.2.5",
+    "babel-core": "^6.24.1",
+    "babel-loader": "^7.0.0",
+    "babel-preset-env": "^1.4.0",
+    "browser-sync": "^2.26.12",
+    "browser-sync-webpack-plugin": "^1.1.4",
+    "css-loader": "^2.1.0",
+    "glslify-loader": "^2.0.0",
+    "load-bmfont": "^1.4.0",
+    "mini-css-extract-plugin": "^0.5.0",
+    "node-sass": "^4.14.1",
+    "optimize-css-assets-webpack-plugin": "^5.0.1",
+    "raw-loader": "^0.5.1",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.23.1",
+    "three": "^0.101.1",
+    "three-addons": "^1.2.0",
+    "three-bmfont-text": "^2.3.0",
+    "uglifyjs-webpack-plugin": "^2.2.0",
+    "url-loader": "^1.1.2",
+    "webpack": "^4.44.2",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
+  }
+}
